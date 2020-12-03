@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 1.205em 'Roboto Slab';
+    color: #4a4a4a;
+    background-color: #e7e7e9; 
+}
+#page{
+    min-height: 100vh;
+
+}
+
+header{
+    width: 100%;
+    background-color: #F7F8F9;
+}
+
+ul{
+    padding: 2em 12em;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+main{
+    height: 100%;
+    margin: 2em 6.5em;
+    
+}
+main h1{
+    text-align: center;
+}
+.line{
+    width: 1px;
+    height: 30px;
+    background-color: #4a4a4a;
+}
+.info{
+    background-color: #F7F8F9;
+    margin: 5em 7em 0em 7em;
+    border-radius: 0.4em;
+    padding: 3em;
+    font-family: 'Alice';
+    color: #2a2a2a;
+    box-shadow: 9px 7px 5px #2a2a2a;
+}
+
+main .info h2{
+    line-height: 3em;
+}
